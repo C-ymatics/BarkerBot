@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "barkerbot"
+version = "0.1.0"
+description = ""
+authors = ["DLCHAMP <36091350+dlchamp@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+disnake = "^2.7.0"
+alembic = "^1.9.2"
+SQLAlchemy = "^1.4.46"
+loguru = "^0.6.0"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
